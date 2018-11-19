@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  font-family: Helvetica, sans-serif
+  font-family: Helvetica, sans-serif;
 }
 
 html,
@@ -114,15 +114,11 @@ body {
   color: purple;
 }
 
-.sblue {
-  background-color: rgb(0, 153, 255);
-}
-
 .mario {
   padding-top: 165px;
   position: fixed;
+  bottom: 11%;
   float: left;
-  
 }
 
 .banner {
@@ -135,7 +131,14 @@ body {
   text-align: center;
   vertical-align: bottom;
 }
-.bottom{
+.space{
+  border: solid black;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.bottom {
   position: absolute;
   background-image: url(../Materials/Bottom.jpg);
   background-size: cover;
@@ -148,18 +151,20 @@ a:link {
 a:visited {
   color: blue;
 }
-.titlehead{
+
+.titlehead {
   text-align: center;
 }
+
 .wall {
   background-image: url(../Materials/wall-2.jpg);
   background-size: cover;
 }
-
-.wallend {
-  background-image: url(../Materials/wallend.jpg);
+.wall-1 {
+  background-image: url(../Materials/wall-1.jpg);
   background-size: cover;
 }
+
 
 .wallhead {
   background-image: url(../Materials/wallh-1.jpg);
@@ -171,9 +176,13 @@ a:visited {
 }
 
 .content {
+
   min-height: 110px;
   float: unset;
   color: red;
   vertical-align: middle;
-  overflow:auto;
+ 
+}
+.border{
+  border: double blue;
 }
